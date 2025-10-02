@@ -1,0 +1,94 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    width: 80%;
+    margin-left: 10%;
+    transition: all 0.4s ease-in-out;
+}
+/* .Card:hover{
+    box-shadow: 2px 2px 4px rgb(182, 150, 90);
+} */
+.ActionCard{
+    /* background-color: aqua; */
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+.btn_join{
+    margin-left: 45%;
+    background-color: rgb(77, 128, 205);
+    color: white;
+    margin-bottom: 3rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.btn_join:hover{
+    background-color: rgb(77, 128, 205);
+    color: white;
+    box-shadow: 2px 2px 4px rgb(182, 150, 90); 
+     transform: translateY(-8px);
+}
+.gettingStarted{
+    margin-left: 15%;
+    margin-bottom: 4rem;
+}
+@media (min-width: 1200px) {
+  .Card {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
+
+@media(min-width:1024px){
+    .Card {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+  }
+}
+/* ✅ Tablets portrait (768px – 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Card {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-left: 5%;
+  }
+}
+
+@media(min-width:481px)and (max-width: 767px){
+    .Card{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-between;
+    }
+}
+@media(max-width:480px){
+    .Card{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* gap: 3rem; */
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-evenly;
+    }
+    .btn_join{
+    margin-left: 25%;
+    background-color: rgb(77, 128, 205);
+    color: white;
+    margin-bottom: 3rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+}

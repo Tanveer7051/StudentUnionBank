@@ -1,0 +1,68 @@
+.profileContainer {
+  /* max-width: 900px; */
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+}
+
+.profileContainer h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0d6efd; /* primary banking blue */
+}
+
+.profileContainer hr {
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 2.5rem;
+}
+
+.profileRow h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #374151;
+  border-left: 4px solid #0d6efd;
+  padding-left: 0.5rem;
+}
+
+.profileRow p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.profileRow p strong {
+  display: inline-block;
+  width: 150px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.profileRow .profileCol {
+  background: #f9fafb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: inset 0 0 0 1px #e5e7eb;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profileRow .profileCol:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 768px) {
+  .profileContainer {
+    padding: 2rem 1.5rem;
+  }
+  .profileRow p strong {
+    width: 120px;
+  }
+}

@@ -1,0 +1,35 @@
+.login_Container {
+  margin-top: 5rem; 
+  padding-top: 2rem; 
+  padding-bottom: 3rem; 
+  width: 100%;
+  max-width: 500px; 
+  border-radius: 8px; 
+  margin-bottom: 15rem;
+}
+/* * {
+  background-image: url("logo.png");
+} */
+@media (max-width: 768px) {
+  .login_Container {
+    margin-top: 3rem; 
+    padding-top: 1rem; 
+  }
+}
+
+h2 {
+  font-size: 2rem; 
+}
+
+form .form-label {
+  font-weight: bold;
+}
+
+form .form-control {
+  border-radius: 5px; 
+  padding: 0.8rem; 
+}
+
+button {
+  padding: 0.8rem 1.5rem; 
+}

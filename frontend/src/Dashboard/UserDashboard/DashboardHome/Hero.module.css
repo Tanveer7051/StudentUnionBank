@@ -1,0 +1,161 @@
+.Hero {
+  background-image: url("/Project.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60rem;
+  text-align: left;
+}
+
+.mobileImg {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.Home {
+  padding: 10rem 3rem;
+  max-width: 800px;
+}
+.Title{
+    padding-top: 35rem;
+}
+.firstP {
+  font-size: xx-large;
+}
+
+.secondP {
+  font-size: x-large;
+  margin-top: 1rem;
+}
+
+.btn {
+  font-size: x-large;
+  padding: 0.6rem 1.5rem;
+  display: inline-block;
+}
+
+.btn1 {
+  color: rgb(218, 171, 84);
+  border: 1px solid rgb(218, 171, 84);
+  border-radius: 0.2rem;
+  margin: 2rem 2rem 2rem 0;
+  font-size: 2rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.btn2 {
+  color: rgb(90, 181, 224);
+  border: 1px solid rgb(90, 181, 224);
+  border-radius: 0.2rem;
+  font-size: 2rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.btn1:hover {
+  box-shadow: 2px 2px 4px rgb(218, 171, 84);
+  color: rgb(218, 171, 84);
+  transform: translateY(-8px);
+}
+
+.btn2:hover {
+  box-shadow: 2px 2px 4px rgb(90, 181, 224);
+  color: rgb(90, 181, 224);
+  transform: translateY(-8px);
+}
+
+/*  Responsive Adjustments */
+
+@media (max-width: 1024px) and (min-width:776px) {
+  .Hero {
+    height: 51rem;
+  }
+
+  .Home {
+    padding: 8rem 2rem;
+  }
+
+  .firstP {
+    font-size: 1.8rem;
+  }
+
+  .secondP {
+    font-size: 1.2rem;
+  }
+
+  .btn,
+  .btn1,
+  .btn2 {
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Hero {
+      background: none;
+    height: auto;
+  }
+  .mobileImg {
+    display: block;
+  }
+
+  .Home {
+    padding: 4rem 1rem;
+  }
+  .Title{
+    padding-top: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .firstP {
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .secondP {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .btn1,
+  .btn2 {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .firstP {
+    font-size: 1.2rem;
+  }
+
+  .secondP {
+    font-size: 0.9rem;
+  }
+
+  .btn,
+  .btn1,
+  .btn2 {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,30 @@
+.loanDataContainer {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.loanTable {
+  border-collapse: collapse;
+}
+
+.loanTable th,
+.loanTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.loanTable th {
+  background-color: #343a40;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.loanFormControl,
+.form-select {
+  border-radius: 50px;
+}

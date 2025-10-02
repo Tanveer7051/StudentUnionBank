@@ -1,0 +1,26 @@
+.signUpBtn {
+  background-color: #0D6EFD;
+  border-radius: 2rem;
+  color: white;
+  padding: 0.7rem 4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 90%;
+}
+
+.signUpBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  background-color: #0b5ed7;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #0D6EFD;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+  transition: box-shadow 0.2s ease-in-out;
+}

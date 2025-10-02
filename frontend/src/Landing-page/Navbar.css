@@ -1,0 +1,69 @@
+.Navbar {
+  border-radius: 1rem;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out; /* smooth hover effects */
+}
+
+.Navbar:hover {
+  border: 2px solid rgb(61, 61, 139);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+/* Base navbar tweaks */
+.navbar-brand {
+  font-size: 1.25rem; /* ~20px */
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1rem; /* ~16px */
+  padding: 0.5rem 1rem;
+}
+
+/* === Responsive Breakpoints === */
+
+/* Tablets and small laptops (≤1075px) */
+@media (max-width: 1075px) {
+  .Navbar {
+    margin-left: 0.5rem;
+    padding: 2px;
+  }
+  .navbar-brand {
+    font-size: 1rem; /* ~16px */
+    padding: 2px;
+  }
+  .nav-link {
+    font-size: 0.95rem; /* ~15px */
+  }
+}
+
+/* Mobiles (≤768px) */
+@media (max-width: 768px) {
+  .Navbar {
+    margin: 0;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  .navbar-brand {
+    font-size: 0.95rem; /* smaller brand text */
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+    text-align: center; /* center items */
+  }
+  .nav-item {
+    width: 100%; /* stack full-width on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 0.85rem;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+  }
+}

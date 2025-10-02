@@ -1,0 +1,38 @@
+export const dummyLoans = [
+  {
+    loanId: "LN001",
+    userId: "U001",
+    type: "Education Loan",
+    amount: 150000,
+    interestRate: 7.5,
+    duration: "5 years",
+    status: "Active",
+    startDate: "2021-08-15",
+    remainingAmount: 97000,
+    emi: 2500,
+  },
+  {
+    loanId: "LN002",
+    userId: "U001",
+    type: "Laptop Loan",
+    amount: 50000,
+    interestRate: 10.2,
+    duration: "2 years",
+    status: "Closed",
+    startDate: "2020-01-01",
+    remainingAmount: 0,
+    emi: 2200,
+  },
+  {
+    loanId: "LN003",
+    userId: "U001",
+    type: "Emergency Loan",
+    amount: 20000,
+    interestRate: 12.0,
+    duration: "1 year",
+    status: "Active",
+    startDate: "2023-05-10",
+    remainingAmount: 7000,
+    emi: 1800,
+  }
+];

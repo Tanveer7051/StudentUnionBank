@@ -1,0 +1,29 @@
+
+/* Navbar brand styling override */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-brand:hover {
+  color: #0056b3;
+}
+
+/* Optional: adjust dropdown item hover */
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #e9ecef;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Optional: highlight active nav link */
+.nav-link.active {
+  font-weight: 700;
+  color: #007bff !important;
+}
+
+/* Adjust navbar padding if needed */
+.navbar {
+  padding: 0.75rem 1rem;
+}

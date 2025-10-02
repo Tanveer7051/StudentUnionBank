@@ -1,0 +1,15 @@
+/* Default size */
+.icon svg {
+  font-size: 45px;
+  color: rgba(21, 21, 250, 0.67);
+}
+
+/* On small screens */
+@media (max-width: 415px) {
+  .icon svg {
+    font-size: 30px; /* smaller for mobile */
+  }
+  .icon h3{
+    font-size: 19px ;
+  }
+}

@@ -1,0 +1,15 @@
+.icon{
+    text-align: center;
+    color:rgb(56, 128, 197);
+}
+.card{
+    border-radius: 2rem;
+}
+.Card:hover{
+    box-shadow: 2px 2px 4px rgb(182, 150, 90);
+    transition: all 0.3s ease-in-out;
+}
+.CardText{
+    font-size: 12px;
+
+}

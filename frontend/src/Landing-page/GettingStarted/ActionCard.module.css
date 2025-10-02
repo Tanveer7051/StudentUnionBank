@@ -1,0 +1,37 @@
+.round{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+}
+.round:hover{
+    box-shadow: 2px 2px 4px rgb(182, 150, 90);
+    transition: all 0.3s ease-in-out;
+}
+.ActionCardText{
+    font-size: 11px !important;
+    text-align: center ;
+}
+.icon{
+    text-align: center;
+    /* color:rgb(56, 128, 197); */
+    color:rgb(56, 128, 197);
+}
+@media(max-width:480px){
+     .round{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+    }
+    .ActionCardText{
+    font-size: 10px !important;
+    text-align: center ;
+    margin-top: -.5rem;
+     }
+     .icon{
+
+    text-align: center;
+    margin-top: .5rem;
+    color:rgb(56, 128, 197);
+}
+
+}

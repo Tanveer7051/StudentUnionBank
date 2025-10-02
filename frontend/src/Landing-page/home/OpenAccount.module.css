@@ -1,0 +1,70 @@
+.h2{
+  margin-top: 10rem;
+  margin-left: 15%;
+  margin-bottom: none;
+}
+.Card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  background-color: white;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  width: 80%;
+  margin-left: 10%;
+  gap: 2rem; /* space between cards */
+}
+
+/* ✅ Large screens (desktops, ≥1200px) */
+@media (min-width: 1200px) {
+  .Card {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
+
+/* ✅ Laptops/Tablets landscape (1024px – 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .Card {
+    width: 90%;
+    justify-content: space-around;
+  }
+}
+
+/* ✅ Tablets portrait (768px – 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+  }
+}
+
+/* ✅ Mobiles (481px – 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Card {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 3rem auto;
+  }
+  .h2{
+    margin-top: 2rem;
+    margin-left: 10%;
+  }
+}
+
+/* ✅ Small Phones (≤480px) */
+@media (max-width: 480px) {
+  .Card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto;
+  }
+  .h2{
+    margin-top: 1rem;
+  }
+}

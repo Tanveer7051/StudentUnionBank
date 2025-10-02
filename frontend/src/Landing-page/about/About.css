@@ -1,0 +1,14 @@
+@media (min-width:766px){
+  .aboutUsContainer{
+    margin-top: 8rem;
+  }
+}
+
+/* //AboutUs */
+.img-fluid{
+    border-radius: 2rem;
+}
+.aboutUsText{
+    margin-bottom: 2rem;
+    font-size: 19px;
+}
